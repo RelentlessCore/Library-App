@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav";
 import Landing from './components/Landing'
+import Highlights from "./components/Highlights"; 
+import Featured from "./components/Featured";
 
 function App() {
   return (
@@ -8,12 +10,13 @@ function App() {
       <div className="App">
         <Nav />
         <Landing />
-      </div>
+        <Highlights />
+        <Featured />
+      </div>  
     </Router>
   );
 }
 
 export default App;
 
-
-// 21:20
+// 41:20
