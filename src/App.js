@@ -7,7 +7,7 @@ import Discounted from "./components/Discounted";
 import Explore from "./components/Explore";
 import Footer from "./components/Footer";
 
-function App() {
+function App() { 
   return (
     <Router> 
       <div className="App"> 
