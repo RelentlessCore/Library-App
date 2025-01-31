@@ -14,7 +14,7 @@ function App() {
         <Nav />
         <Landing />
         <Highlights />
-        <Featured />
+        <Featured /> 
         <Discounted />
         <Explore />
         <Footer /> 
