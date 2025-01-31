@@ -18,7 +18,7 @@ function App() {
         <Discounted />
         <Explore />
         <Footer /> 
-      </div>  
+      </div>   
     </Router>
   );
 }
