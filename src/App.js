@@ -17,7 +17,7 @@ function App() {
         <Featured /> 
         <Discounted />
         <Explore />
-        <Footer /> 
+        <Footer />  
       </div>   
     </Router>
   );
