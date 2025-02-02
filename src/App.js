@@ -14,7 +14,7 @@ function App() {
   function addToCart(book) {
     setCart([book]); 
     console.log(cart); 
-  }
+  } 
 
   return (
     <Router>
