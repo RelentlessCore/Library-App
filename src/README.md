@@ -15,7 +15,7 @@ function App() {
   function numberOfItems() { 
     let counter = 0; 
     cart.forEach((item) => {  
-      counter += item.quantity;
+      counter += item.quantity; 
     });
     return counter;
   }
