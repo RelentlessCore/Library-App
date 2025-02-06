@@ -17,7 +17,7 @@ function App() {
     cart.forEach((item) => {  
       counter += item.quantity; 
     });
-    return counter;
+    return counter; 
   }
 
   function addToCart(book) {
