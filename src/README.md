@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Cart from "./pages/Cart";
 import ScrollToTop from "./components/ScrollToTop";
 
-function App() {
+function App() { 
   const [cart, setCart] = useState([]);
 
   function numberOfItems() {
