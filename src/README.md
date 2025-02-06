@@ -21,7 +21,7 @@ function App() {
   }
 
   function addToCart(book) {
-    setCart([...cart, { ...book, quantity: 1 }]);
+    setCart([...cart, { ...book, quantity: 1 }]); 
   } 
 
   function removeItem(item) {
