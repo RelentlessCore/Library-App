@@ -22,7 +22,7 @@ function App() {
 
   function addToCart(book) {
     setCart([...cart, { ...book, quantity: 1 }]);
-  }
+  } 
 
   function removeItem(item) {
     setCart(cart.filter((book) => book.id !== item.id));
