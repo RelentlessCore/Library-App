@@ -12,7 +12,7 @@ import ScrollToTop from "./components/ScrollToTop";
 function App() { 
   const [cart, setCart] = useState([]);
 
-  function numberOfItems() {
+  function numberOfItems() { 
     let counter = 0; 
     cart.forEach((item) => { 
       counter += item.quantity;
